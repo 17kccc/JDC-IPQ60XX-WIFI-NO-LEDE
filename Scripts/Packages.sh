@@ -43,8 +43,7 @@ UPDATE_PACKAGE "viking" "VIKINGYFY/packages" "main" "" "luci-app-timewol luci-ap
 
 #UPDATE_PACKAGE "luci-app-gecoosac" "lwb1978/openwrt-gecoosac" "main"
 #UPDATE_PACKAGE "luci-app-tailscale" "asvow/luci-app-tailscale" "main"
-UPDATE_PACKAGE "luci-app-advancedplus" "ftkey/openwrt_pkgs" "main" "pkg"
-UPDATE_PACKAGE "luci-app-wolplus" "ftkey/openwrt_pkgs" "main" "pkg"
+
 
 # if [[ $WRT_REPO != *"immortalwrt"* ]]; then
 # 	UPDATE_PACKAGE "qmi-wwan" "immortalwrt/wwan-packages" "master" "pkg"
