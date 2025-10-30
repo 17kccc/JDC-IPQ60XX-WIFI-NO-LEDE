@@ -29,14 +29,9 @@ UPDATE_PACKAGE() {
 }
 
 #UPDATE_PACKAGE "包名" "项目地址" "项目分支" "pkg/name，可选，pkg为从大杂烩中单独提取包名插件；name为重命名为包名"
-#UPDATE_PACKAGE "argon" "jerrykuku/luci-theme-argon" "master"
-#UPDATE_PACKAGE "kucat" "sirpdboy/luci-theme-kucat" "js"
-
-#UPDATE_PACKAGE "homeproxy" "immortalwrt/homeproxy" "master"
-#UPDATE_PACKAGE "mihomo" "morytyann/OpenWrt-mihomo" "main"
-#UPDATE_PACKAGE "openclash" "vernesong/OpenClash" "dev" "pkg"
-#UPDATE_PACKAGE "passwall" "xiaorouji/openwrt-passwall" "main" "pkg"
-#UPDATE_PACKAGE "ssr-plus" "fw876/helloworld" "master"
+UPDATE_PACKAGE "unishare" "kenzok8/small-package" "main" "pkg"
+UPDATE_PACKAGE "webdav2" "kenzok8/small-package" "main" "pkg"
+UPDATE_PACKAGE "viking" "VIKINGYFY/packages" "main" "" "luci-app-timewol luci-app-wolplus"
 
 # if [[ $WRT_REPO == *"lede"* ]]; then
 # 	UPDATE_PACKAGE "alist" "sbwml/luci-app-alist" "main" # 2024年12月3日测试依旧报错
